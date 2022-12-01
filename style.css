@@ -42,14 +42,27 @@ display: flex;
     background-color: rgb(29, 28, 28);
  
 }
-.switch{
-    height: 13px;
-    position: relative;
-  bottom: 16px;
-  width: 10px;
-
-  border-color: transparent;
-  background-color: transparent;
+.offcanvas-body{
+    background-color: black;
+}
+.offcanvas-header{
+    background-color: black;
+}
+.btn-close{
+    background-color: white;
+}
+.btnB{
+    height: 50px;
+    width: 44px;
+    background-color: transparent;
+    border: transparent;
+    
+}
+#icon{
+   padding-bottom: 6px;
+}
+.inside{
+    color: white;
 }
 
 .header2{
