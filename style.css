@@ -93,11 +93,20 @@ display: flex;
 
 width: 100%;
 }
-#button2{
+.btn{
     border-color: white;
-    background-color: transparent;
     color: white;
+  width: 150px;
 }
+.btn:hover{
+    background-color: white;
+   
+    
+}
+.Fsize:hover{
+    color: black;
+}
+
 .text{
    
    padding-left: 47px;
