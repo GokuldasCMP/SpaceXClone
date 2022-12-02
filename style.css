@@ -1,29 +1,23 @@
 body{
     overflow-x: hidden;
 }
-
 html{
     overflow-x: hidden;
 }
-
 .header{
 width: 100%;
 height: 100px;
-
 display: flex;
     align-items: center;
     position: fixed;
-    
-
-}
+    }
 .header1{
     width: 20%;
    
     display: flex;
     align-items: center;
     justify-content: center;
-   
-}
+   }
 #spacex{
     height: 26px;
     width: 238px;
@@ -35,12 +29,25 @@ display: flex;
     border: transparent;
     background-color: transparent;
 }
+.Fsize{
+    font-size: 13px;
+    color: white;
+}
+.Fsize1:hover{
+    color: black;
+}
+.btnB{
+    height: 50px;
+    width: 44px;
+    background-color: transparent;
+    border: transparent;
+    
+}
 .burger{
     height: 4px;
     width: 5px;
     color: white;
     background-color: rgb(29, 28, 28);
- 
 }
 .offcanvas-body{
     background-color: black;
@@ -51,13 +58,7 @@ display: flex;
 .btn-close{
     background-color: white;
 }
-.btnB{
-    height: 50px;
-    width: 44px;
-    background-color: transparent;
-    border: transparent;
-    
-}
+
 #icon{
    padding-bottom: 6px;
 }
@@ -81,31 +82,60 @@ display: flex;
     align-items: center;
     justify-content: center;
     gap: 17px;
-    position: relative;
-    right: 25px;
+    
+    }
+    .rocketBG5{
+        background-image:url("images/pic6.webp");
+        height: 555px;
+        width: 100%;
+       background-repeat: no-repeat;
+       background-size: cover;
+        background-position: center;
     }
     
-.Fsize{
-    font-size: 13px;
-    color: white;
-}
+    .rocketBG4{
+        background-image:url("images/pic5.webp");
+        height: 555px;
+        width: 100%;
+       background-repeat: no-repeat;
+       background-size: cover;
+        background-position: center;
+    }
+    
+    .rocketBG3{
+        background-image:url("images/pic4.webp");
+        height: 555px;
+        width: 100%;
+       background-repeat: no-repeat;
+       background-size: cover;
+        background-position: center;
+    }
+    
+    .rocketBG2{
+        background-image:url("images/pic1.webp");
+        height: 555px;
+        width: 100%;
+       background-repeat: no-repeat;
+       background-size: cover;
+        background-position: center;
+    }
+    
+    .rocketBG1{
+        background-image:url("images/pic3.webp");
+        height: 555px;
+        width: 100%;
+       background-repeat: no-repeat;
+       background-size: cover;
+        background-position: center;
+    }
+    
+
 .inner-body{
     overflow-y: hidden;
 }
-.rocket1{
-    height: 350px;
-    width: 100%;
-}
-#rock1{
-    height:555px;
-    width:100%;
-    
-}
 
-.rocket2{
 
-width: 100%;
-}
+
 .btn{
     border-color: white;
     color: white;
@@ -116,9 +146,7 @@ width: 100%;
    
     
 }
-.Fsize1:hover{
-    color: black;
-}
+
 
 .text{
    
@@ -131,34 +159,23 @@ color: white;
 font: 16px/26px D-DIN-Regular,Arial,Verdana,sans-serif;
 font-size: 30px;
 }
-#rock2{
-    height:555px;
-    width:100%;
-    position: relative;
-    top: 105px;
-}
+
 .text1{
    
     padding-left: 47px;
     padding-top: 290px;
 }
-.rocket3{
-    margin-top: -58px;
-}
+
 .text2{
     padding-left: 47px;
     padding-top: 200px;
 }
-.rocket4{
-    margin-top: -135px;
-}
+
 .text3{
     padding-left: 47px;
     padding-top: 140px; 
 }
-.rocket5{
-    margin-top: -169px;
-}
+
 .text4{
     padding-left: 47px;
     padding-top: 300px; 
@@ -192,55 +209,12 @@ justify-content: center;
    
 }
 
-.rocketBG5{
-    background-image:url("images/pic6.webp");
-    height: 555px;
-    width: 100%;
-   background-repeat: no-repeat;
-   background-size: cover;
-    background-position: center;
-}
 
-.rocketBG4{
-    background-image:url("images/pic5.webp");
-    height: 555px;
-    width: 100%;
-   background-repeat: no-repeat;
-   background-size: cover;
-    background-position: center;
-}
-
-.rocketBG3{
-    background-image:url("images/pic4.webp");
-    height: 555px;
-    width: 100%;
-   background-repeat: no-repeat;
-   background-size: cover;
-    background-position: center;
-}
-
-.rocketBG2{
-    background-image:url("images/pic1.webp");
-    height: 555px;
-    width: 100%;
-   background-repeat: no-repeat;
-   background-size: cover;
-    background-position: center;
-}
-
-.rocketBG1{
-    background-image:url("images/pic3.webp");
-    height: 555px;
-    width: 100%;
-   background-repeat: no-repeat;
-   background-size: cover;
-    background-position: center;
-}
 #myBtn {
 
     position: fixed;
-    bottom: 20px;
-    right: 30px;
+    bottom: 10px;
+    right: 10px;
     z-index:1000;
     font-size: 18px;
     border: none;
@@ -248,7 +222,7 @@ justify-content: center;
     background-color: rgb(246, 239, 241) ;
     color: rgb(19, 18, 18);
     cursor: pointer;
-    padding: 15px;
+    padding: 5px;
     border-radius: 4px;
   }
   
